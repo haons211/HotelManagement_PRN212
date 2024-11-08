@@ -54,8 +54,11 @@ The application uses a client-server architecture with a separate WPF front-end 
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/HotelManagement.git
-    cd HotelManagement
+    git clone https://github.com/haons211/PRN212_server.git
+    ```
+
+     ```bash
+    git clone https://github.com/haons211/PRN212_app.git
     ```
 
 2. **Set up the Database**:
@@ -90,57 +93,8 @@ The database structure is centered around the booking and payment system with th
 
 > Refer to `Database/FUMiniHotelManagement.sql` for the complete database schema.
 
-## Endpoints
 
-The API exposes various endpoints for managing the hotel operations:
 
-- **Rooms**:
-  - `GET /api/rooms` - Get all available rooms.
-  - `POST /api/rooms` - Add a new room.
-  - `PUT /api/rooms/{id}` - Update room details.
-  - `DELETE /api/rooms/{id}` - Remove a room.
-
-- **Bookings**:
-  - `POST /api/bookings` - Create a new booking.
-  - `GET /api/bookings/{id}` - Get booking details.
-  - `PUT /api/bookings/{id}` - Update booking details.
-
-- **Payments**:
-  - `POST /api/payments` - Process a new payment.
-  - `GET /api/payments/{id}` - Get payment status.
-
-## Usage
-
-### Booking a Room
-
-1. Search for available rooms using the search bar in the WPF application.
-2. Select a room and proceed with the booking process.
-3. Confirm the reservation and make a payment if required.
-
-### Checking Out
-
-1. Go to the Bookings section.
-2. Select the booking to check out.
-3. Confirm the checkout and finalize the payment.
-
-## Contributing
-
-We welcome contributions to improve HotelManagement. To contribute:
-
-1. Fork the repository.
-2. Create a new branch:
-    ```bash
-    git checkout -b feature/YourFeature
-    ```
-3. Commit your changes:
-    ```bash
-    git commit -m 'Add your feature'
-    ```
-4. Push to the branch:
-    ```bash
-    git push origin feature/YourFeature
-    ```
-5. Open a Pull Request.
 
 ## License
 
