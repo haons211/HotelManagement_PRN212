@@ -38,8 +38,7 @@ HotelManagement provides a platform for managing hotel bookings, including room 
 - **Payment Integration**: VNPAY
 
 ## Architecture
-
-The application uses a client-server architecture with a separate WPF front-end and .NET Core API back-end. The API is responsible for managing requests, performing CRUD operations, and integrating with external services (like payment processing).
+![System Architecture](imgs/Untitled-2024-11-07-1010.svg)
 
 ## Getting Started
 
