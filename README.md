@@ -38,7 +38,7 @@ HotelManagement provides a platform for managing hotel bookings, including room 
 - **Payment Integration**: VNPAY
 
 ## Architecture
-![System Architecture](imgs/Untitled-2024-11-07-1010.svg)
+![System Architecture](imgs/ssarchitect.svg)
 
 ## Getting Started
 
