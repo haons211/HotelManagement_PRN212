@@ -93,6 +93,15 @@ The database structure is centered around the booking and payment system with th
 > Refer to `Database/FUMiniHotelManagement.sql` for the complete database schema.
 
 
+# VNPAY Info
+
+ - 
+     ```bash
+     9704198526191432198
+     NGUYEN VAN A
+     07/15
+     123456
+     ```
 
 
 ## License
